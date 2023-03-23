@@ -1,11 +1,10 @@
-.flex {
+.row {
   display: flex;
-}
-
-.gap-x-1 {
- row-gap: 1rem;
-}
-
-.align-center {
+  row-gap: 1rem;
   align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
 }
