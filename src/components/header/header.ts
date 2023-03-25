@@ -1,7 +1,7 @@
-import { Options, Vue } from "vue-class-component";
+import { Component, Vue } from "vue-facing-decorator";
 import { KeycloakService } from "@/services/keycloak.service";
 
-@Options({
+@Component({
   name: 'app-header',
 })
 export default class Header extends Vue {
