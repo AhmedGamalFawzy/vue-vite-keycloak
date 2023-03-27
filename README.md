@@ -1,9 +1,17 @@
 # vue-keycloak-oauth
 
-This template should help get you started developing with Vue 3 in Vite.
+## Follow these steps
+
+`realm-data` folder has exported json file of the keycloak instance
+
+To run Keycloak instance use this command
+```sh
+docker run -p 8081:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:19.0.3 start-dev
+```
+
 
 ## Recommended IDE Setup
-
+This template should help get you started developing with Vue 3 in Vite.
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## Type Support for `.vue` Imports in TS
