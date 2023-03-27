@@ -1,5 +1,5 @@
-import { Component, Vue } from "vue-facing-decorator";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import { Component, Vue } from 'vue-facing-decorator';
+import HelloWorld from '@/components/HelloWorld.vue';
 
 @Component({
   components: {
